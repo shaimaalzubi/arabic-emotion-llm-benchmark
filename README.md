@@ -177,8 +177,8 @@ docs/PROJECT_STRUCTURE.md
 Clone the repository and create a Python environment.
 
 ```bash
-git clone https://github.com/shaimaalzubi/Benchmark.git
-cd Benchmark
+git clone https://github.com/shaimaalzubi/arabic-emotion-llm-benchmark.git
+cd arabic-emotion-llm-benchmark
 
 python -m venv .venv
 ```
