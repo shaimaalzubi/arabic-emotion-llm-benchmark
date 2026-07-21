@@ -4,6 +4,7 @@ title: "Deployment-Oriented Evaluation of Large Language Models for Arabic Emoti
 type: software
 version: "1.0.0"
 date-released: "2026-07-21"
+
 authors:
   - family-names: "Al-Shamaileh"
     given-names: "Ons"
@@ -16,8 +17,11 @@ authors:
   - family-names: "Alnajjar"
     given-names: "Fady"
     email: "fady.alnajjar@uaeu.ac.ae"
+
 repository-code: "https://github.com/shaimaalzubi/arabic-emotion-llm-benchmark"
+doi: "10.5281/zenodo.21480895"
 license: "MIT"
+
 keywords:
   - Arabic NLP
   - emotion classification
@@ -27,6 +31,7 @@ keywords:
   - few-shot learning
   - self-consistency
   - McNemar test
+
 abstract: >
   Code and documentation for a deployment-oriented evaluation of large
   language models for Arabic emotion classification. The repository covers
