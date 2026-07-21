@@ -16,7 +16,7 @@ authors:
   - family-names: "Alnajjar"
     given-names: "Fady"
     email: "fady.alnajjar@uaeu.ac.ae"
-repository-code: "https://github.com/shaimaalzubi/Benchmark"
+repository-code: "https://github.com/shaimaalzubi/arabic-emotion-llm-benchmark"
 license: "MIT"
 keywords:
   - Arabic NLP
