@@ -105,7 +105,7 @@ docs/COHEN_KAPPA.md
 ## Repository Structure
 
 ```text
-BnchmarkZenodo/
+arabic-emotion-llm-benchmark/
 ├── .env.example
 ├── .gitignore
 ├── CITATION.cff
