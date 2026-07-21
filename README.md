@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Research Software](https://img.shields.io/badge/type-research%20software-blue.svg)](CITATION.cff)
-[![Zenodo DOI](https://img.shields.io/badge/DOI-pending-lightgrey.svg)](#citation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21480895.svg)](https://doi.org/10.5281/zenodo.21480895)
 
 ## Overview
 
@@ -31,40 +31,40 @@ The repository documents the following experimental components:
 
 The public release does **not** include:
 
-- the full Arabic text dataset;
-- original sample-level prediction outputs;
-- original provider logs;
-- original generated figures;
-- API credentials.
+* the full Arabic text dataset;
+* original sample-level prediction outputs;
+* original provider logs;
+* original generated figures;
+* API credentials.
 
 ## Evaluated Models
 
 ### OpenAI API
 
-- GPT-4o
-- GPT-4.1-mini
-- GPT-5
-- OpenAI-o3
+* GPT-4o
+* GPT-4.1-mini
+* GPT-5
+* OpenAI-o3
 
 ### Anthropic API
 
-- Claude-Sonnet-4.6
+* Claude-Sonnet-4.6
 
 ### Google Gemini API
 
-- Gemini-2.5-Flash
-- Gemma-3-12B
+* Gemini-2.5-Flash
+* Gemma-3-12B
 
 ### Groq API
 
-- Qwen-3-32B
-- Allam-2-7B
-- LLaMA-3.1-8B
+* Qwen-3-32B
+* Allam-2-7B
+* LLaMA-3.1-8B
 
 ### Mistral API
 
-- Mistral-Medium
-- Mistral-Large
+* Mistral-Medium
+* Mistral-Large
 
 The study was not designed as a tier-matched provider comparison. Results should be interpreted as applying to the specific model and API configurations evaluated, not as provider-level rankings.
 
@@ -85,11 +85,11 @@ The final reference label is stored in the `emotion` column after adjudication.
 
 Two annotators independently labelled all samples before adjudication:
 
-- agreements: `980`;
-- disagreements: `22`;
-- observed agreement: `0.9780`;
-- expected agreement: `0.2094`;
-- Cohen's kappa: `0.9722`.
+* agreements: `980`;
+* disagreements: `22`;
+* observed agreement: `0.9780`;
+* expected agreement: `0.2094`;
+* Cohen's kappa: `0.9722`.
 
 The full text dataset is **not included in this public repository** because the sentences were derived from publicly accessible social-media content and may still raise privacy, platform-policy, ethical, and redistribution considerations.
 
@@ -242,12 +242,12 @@ MISTRAL_API_KEY=
 
 Never commit or upload:
 
-- `.env`;
-- API keys;
-- credentials;
-- request headers;
-- service-account files;
-- private provider logs.
+* `.env`;
+* API keys;
+* credentials;
+* request headers;
+* service-account files;
+* private provider logs.
 
 ## Dataset Placement for Authorised Reproduction
 
@@ -268,11 +268,11 @@ The `emotion` column is the final adjudicated reference label.
 
 Before execution, verify:
 
-- exactly 1,002 valid rows;
-- no missing required values;
-- UTF-8-compatible encoding;
-- only the five valid reference labels;
-- class counts matching `docs/DATASET.md`.
+* exactly 1,002 valid rows;
+* no missing required values;
+* UTF-8-compatible encoding;
+* only the five valid reference labels;
+* class counts matching `docs/DATASET.md`.
 
 ## Experimental Protocols
 
@@ -286,11 +286,11 @@ code/01_one_vote/
 
 Protocol:
 
-- one inference request per sample;
-- `k=1`;
-- zero-shot prompt;
-- temperature zero where explicitly supported;
-- provider-specific validation and retry handling.
+* one inference request per sample;
+* `k=1`;
+* zero-shot prompt;
+* temperature zero where explicitly supported;
+* provider-specific validation and retry handling.
 
 Recommended output location:
 
@@ -308,12 +308,12 @@ code/03_few_shot_single_inference/
 
 Protocol:
 
-- five manually constructed demonstrations;
-- one example per emotion class;
-- demonstrations external to the evaluation dataset;
-- one inference request per sample;
-- `k=1`;
-- temperature zero where explicitly supported.
+* five manually constructed demonstrations;
+* one example per emotion class;
+* demonstrations external to the evaluation dataset;
+* one inference request per sample;
+* `k=1`;
+* temperature zero where explicitly supported.
 
 Recommended output location:
 
@@ -331,11 +331,11 @@ code/02_three_vote/
 
 Protocol:
 
-- three independent generations per sample;
-- sampling temperature `T=0.3` where supported;
-- validation of each generated response;
-- valid-vote aggregation;
-- a final valid emotion only when at least two votes agree.
+* three independent generations per sample;
+* sampling temperature `T=0.3` where supported;
+* validation of each generated response;
+* valid-vote aggregation;
+* a final valid emotion only when at least two votes agree.
 
 Final harmonised unknown outcomes:
 
@@ -361,11 +361,11 @@ code/04_gpt_rerun/gptRerun.py
 
 Protocol:
 
-- GPT-4o;
-- zero-shot prompt;
-- three complete runs;
-- temperature zero;
-- comparison of consistency, variability, persistent errors, and correctness changes.
+* GPT-4o;
+* zero-shot prompt;
+* three complete runs;
+* temperature zero;
+* comparison of consistency, variability, persistent errors, and correctness changes.
 
 Recommended output location:
 
@@ -401,12 +401,12 @@ code/McNemar/mcNemar.py
 
 Reported analysis:
 
-- 12 evaluated models;
-- same 1,002 zero-shot samples;
-- 66 pairwise comparisons;
-- two-sided exact McNemar test;
-- Holm step-down correction;
-- adjusted threshold `p<0.05`.
+* 12 evaluated models;
+* same 1,002 zero-shot samples;
+* 66 pairwise comparisons;
+* two-sided exact McNemar test;
+* Holm step-down correction;
+* adjusted threshold `p<0.05`.
 
 The original prediction files required to reproduce the exact manuscript table are not included in this public repository.
 
@@ -414,13 +414,13 @@ The original prediction files required to reproduce the exact manuscript table a
 
 Run commands from the repository root only after verifying each script's:
 
-- dataset path;
-- output path;
-- provider model identifier;
-- API access;
-- parameter support;
-- quota;
-- retry configuration.
+* dataset path;
+* output path;
+* provider model identifier;
+* API access;
+* parameter support;
+* quota;
+* retry configuration.
 
 Example script locations:
 
@@ -464,10 +464,10 @@ output/<EXPERIMENT>/figures/
 
 New executions should use clearly identified run folders and should be described as:
 
-- re-runs;
-- replications;
-- extensions;
-- corrections.
+* re-runs;
+* replications;
+* extensions;
+* corrections.
 
 They must not be described as the original archived outputs.
 
@@ -511,63 +511,64 @@ The label `unknown` is an evaluation outcome and is not one of the five gold emo
 
 Exact hosted-model reproduction may be affected by:
 
-- silent model revisions;
-- model alias changes;
-- backend serving changes;
-- provider-side nondeterminism;
-- parameter-support differences;
-- rate limits;
-- quota restrictions;
-- API deprecation;
-- safety filtering;
-- regional availability;
-- model-access changes.
+* silent model revisions;
+* model alias changes;
+* backend serving changes;
+* provider-side nondeterminism;
+* parameter-support differences;
+* rate limits;
+* quota restrictions;
+* API deprecation;
+* safety filtering;
+* regional availability;
+* model-access changes.
 
 A new run should preserve:
 
-- exact model identifier;
-- provider;
-- access date;
-- requested parameters;
-- parameters actually sent;
-- prompt version;
-- parser version;
-- retry policy;
-- run identifier;
-- dataset checksum;
-- output checksum.
+* exact model identifier;
+* provider;
+* access date;
+* requested parameters;
+* parameters actually sent;
+* prompt version;
+* parser version;
+* retry policy;
+* run identifier;
+* dataset checksum;
+* output checksum.
 
 ## Documentation
 
-- [`docs/DATASET.md`](docs/DATASET.md)  
+* [`docs/DATASET.md`](docs/DATASET.md)
   Dataset size, labels, class distribution, agreement, access, privacy, and integrity checks.
 
-- [`docs/EVALUATION_PROTOCOL.md`](docs/EVALUATION_PROTOCOL.md)  
+* [`docs/EVALUATION_PROTOCOL.md`](docs/EVALUATION_PROTOCOL.md)
   Benchmark logic, strict and covered evaluation, unknown handling, and vote aggregation.
 
-- [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)  
+* [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)
   Repository tree and file-level descriptions.
 
-- [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md)  
+* [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md)
   Environment setup, execution procedures, logging, output policy, and replication guidance.
 
-- [`docs/COHEN_KAPPA.md`](docs/COHEN_KAPPA.md)  
+* [`docs/COHEN_KAPPA.md`](docs/COHEN_KAPPA.md)
   Inter-annotator agreement calculation.
 
-- [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)  
+* [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
   Contribution and generated-output rules.
 
-- [`docs/ACKNOWLEDGEMENTS.md`](docs/ACKNOWLEDGEMENTS.md)  
+* [`docs/ACKNOWLEDGEMENTS.md`](docs/ACKNOWLEDGEMENTS.md)
   Contributors, institutions, and software providers.
 
 ## Citation
 
-The Zenodo DOI will be inserted after the final repository release is archived.
+Please cite the archived software release as:
 
 ```text
 Al-Shamaileh, O., Alzubi, S., Almehrzi, M., Mubin, O., & Alnajjar, F. (2026).
 Deployment-Oriented Evaluation of Large Language Models for Arabic Emotion Classification.
-Software, version 1.0.0. Zenodo. DOI: pending.
+Software, version 1.0.0. Zenodo.
+https://doi.org/10.5281/zenodo.21480895
 ```
 
 Machine-readable citation metadata are available in:
@@ -576,12 +577,9 @@ Machine-readable citation metadata are available in:
 CITATION.cff
 ```
 
-After DOI assignment, update:
+The archived version of this repository is available through Zenodo:
 
-- `CITATION.cff`;
-- this README;
-- the manuscript's Code Availability section;
-- the final Zenodo record.
+https://doi.org/10.5281/zenodo.21480895
 
 ## License
 
@@ -591,8 +589,8 @@ The MIT License applies to the software only.
 
 It does not automatically grant permission to redistribute:
 
-- the underlying social-media text;
-- restricted dataset material;
-- third-party content;
-- provider-generated outputs;
-- content governed by external platform terms.
+* the underlying social-media text;
+* restricted dataset material;
+* third-party content;
+* provider-generated outputs;
+* content governed by external platform terms.
