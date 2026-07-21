@@ -1,0 +1,65 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+service-account.json
+api_keys.json
+secrets.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test and coverage artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Temporary and local files
+*.log
+*.tmp
+*.temp
+~$*
+config.local.json
+config.local.yaml
+config.local.yml
+
+# Large local model files
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Local archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz

@@ -1,0 +1,51 @@
+﻿sample_id,text,emotion,source,is_synthetic
+SYN001,عنجد انقهرت لما اكتشفت إنهم غيروا الموعد وما خبروني.,anger,manually_generated_synthetic,True
+SYN002,كل مرة بوعدني يلتزم وبالآخر برجع يعيد نفس الغلط.,anger,manually_generated_synthetic,True
+SYN003,مش معقول كل هالتأخير وبعدين يتصرفوا كأنه الموضوع عادي.,anger,manually_generated_synthetic,True
+SYN004,استفزني أسلوبه كثير، خصوصاً لما قاطعني وما خلاني أكمل كلامي.,anger,manually_generated_synthetic,True
+SYN005,تعبت من الناس اللي بتحكم عليك من غير ما تعرف شو مريت فيه.,anger,manually_generated_synthetic,True
+SYN006,نفسي أفهم ليش لازم أتحمل نتيجة خطأ أنا ما عملته.,anger,manually_generated_synthetic,True
+SYN007,زعلت لما شفت حقي يروح لحدا ما تعب نص تعبي.,anger,manually_generated_synthetic,True
+SYN008,رفع صوته عليّ قدام الكل وكأنه ما إلي أي احترام.,anger,manually_generated_synthetic,True
+SYN009,اللي صار اليوم خلاني أعصب لدرجة ما قدرت أرد بهدوء.,anger,manually_generated_synthetic,True
+SYN010,بصراحة مستفز إنهم يتجاهلوا رسائلي وبعدين يطلبوا مني أكون متعاونة.,anger,manually_generated_synthetic,True
+SYN011,اليوم وصلني الخبر اللي كنت بستناه من شهور وفرحتي ما بتنحكى.,joy,manually_generated_synthetic,True
+SYN012,ضحكت من قلبي لما شفت ابني عامل لي مفاجأة صغيرة.,joy,manually_generated_synthetic,True
+SYN013,الحمد لله خلصت المهمة أخيراً وحاسة بفخر كبير بنفسي.,joy,manually_generated_synthetic,True
+SYN014,القعدة مع الناس اللي بحبهم بتغير مزاجي للأحسن فوراً.,joy,manually_generated_synthetic,True
+SYN015,صحيت على رسالة حلوة خلت يومي يبدأ بطاقة جميلة.,joy,manually_generated_synthetic,True
+SYN016,نجاحها فرحني كأنه نجاحي أنا بالضبط.,joy,manually_generated_synthetic,True
+SYN017,اليوم الجو لطيف والقهوة زابطة وكل شيء ماشي على كيفي.,joy,manually_generated_synthetic,True
+SYN018,ما توقعت الهدية أبداً، وظليت أضحك من الفرحة.,joy,manually_generated_synthetic,True
+SYN019,أخيراً اجتمعنا كلنا بعد غياب طويل وكانت ليلة بتجنن.,joy,manually_generated_synthetic,True
+SYN020,مجرد ما سمعت الأغنية القديمة رجعت لي ذكريات حلوة كثير.,joy,manually_generated_synthetic,True
+SYN021,من وقت ما سافر وأنا حاسة البيت فاضي مهما كان فيه ناس.,sadness,manually_generated_synthetic,True
+SYN022,تعبت من إني أظهر قوية وأنا من جوّا مكسورة.,sadness,manually_generated_synthetic,True
+SYN023,كان نفسي يضل معنا أكثر، بس الوقت مر بسرعة وانتهى كل شيء.,sadness,manually_generated_synthetic,True
+SYN024,فتحت الصور القديمة وحسيت بوجع غريب ما قدرت أتجاهله.,sadness,manually_generated_synthetic,True
+SYN025,أصعب شيء لما تحتاج تحكي وما تلاقي حدا يفهمك.,sadness,manually_generated_synthetic,True
+SYN026,اليوم مر ثقيل، وكل شيء فيه ذكرني بأشياء فقدتها.,sadness,manually_generated_synthetic,True
+SYN027,حاولت أفرح للكل، بس قلبي كان مشغول بحزنه.,sadness,manually_generated_synthetic,True
+SYN028,وصلتني كلمته متأخرة بعد ما كنت فقدت الأمل إنه يسأل.,sadness,manually_generated_synthetic,True
+SYN029,ما كنت متوقعة النهاية تكون باردة لهالدرجة.,sadness,manually_generated_synthetic,True
+SYN030,كل ما أتذكر الفرصة اللي ضاعت بحس بغصة بقلبي.,sadness,manually_generated_synthetic,True
+SYN031,من مبارح وأنا قلقة من النتيجة ومش قادرة أنام منيح.,fear,manually_generated_synthetic,True
+SYN032,دقات قلبي تسارعت لما سمعت صوت قوي عند الباب بنص الليل.,fear,manually_generated_synthetic,True
+SYN033,خايفة أبدأ الخطوة الجديدة وأكتشف إني ما كنت جاهزة.,fear,manually_generated_synthetic,True
+SYN034,كل ما يتأخر بالرد بتيجيني أفكار سيئة غصب عني.,fear,manually_generated_synthetic,True
+SYN035,الطريق كان فاضي وضبابي وحسيت بتوتر طول المشوار.,fear,manually_generated_synthetic,True
+SYN036,ما بعرف ليش، بس عندي إحساس إن في شيء مو مطمئن.,fear,manually_generated_synthetic,True
+SYN037,توترت كثير قبل المقابلة وحسيت إني راح أنسى كل الكلام.,fear,manually_generated_synthetic,True
+SYN038,خفت لما شفت الطفل ابتعد عني بين الزحمة.,fear,manually_generated_synthetic,True
+SYN039,فكرة إني أخسر شغلي مخليتني مش قادرة أركز بأي شيء.,fear,manually_generated_synthetic,True
+SYN040,كنت أراقب الساعة وكل دقيقة تمر كانت تزيد قلقي.,fear,manually_generated_synthetic,True
+SYN041,الموعد الجديد يوم الثلاثاء الساعة العاشرة صباحاً.,neutral,manually_generated_synthetic,True
+SYN042,وصلت الحافلة بعد خمس دقائق وتوقفت عند المدخل الرئيسي.,neutral,manually_generated_synthetic,True
+SYN043,الملف يحتوي على خمس فئات وعمود للنص وعمود للتصنيف.,neutral,manually_generated_synthetic,True
+SYN044,قرأت الفصل الأول وسأكمل بقية الكتاب في نهاية الأسبوع.,neutral,manually_generated_synthetic,True
+SYN045,درجة الحرارة اليوم أقل من أمس بثلاث درجات.,neutral,manually_generated_synthetic,True
+SYN046,تم إرسال الرسالة إلى الفريق وإضافة المرفق المطلوب.,neutral,manually_generated_synthetic,True
+SYN047,المحل يفتح من التاسعة صباحاً حتى السادسة مساءً.,neutral,manually_generated_synthetic,True
+SYN048,استخدمت النسخة الأخيرة من البرنامج لتشغيل التحليل.,neutral,manually_generated_synthetic,True
+SYN049,يوجد مقعدان فارغان بالقرب من النافذة.,neutral,manually_generated_synthetic,True
+SYN050,سأراجع الجدول ثم أضيف الملاحظات في العمود الأخير.,neutral,manually_generated_synthetic,True

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository."
+title: "Deployment-Oriented Evaluation of Large Language Models for Arabic Emotion Classification"
+type: software
+version: "1.0.0"
+date-released: "2026-07-21"
+authors:
+  - family-names: "Al-Shamaileh"
+    given-names: "Ons"
+  - family-names: "Alzubi"
+    given-names: "Shaima"
+  - family-names: "Almehrzi"
+    given-names: "Mohammed"
+  - family-names: "Mubin"
+    given-names: "Omar"
+  - family-names: "Alnajjar"
+    given-names: "Fady"
+    email: "fady.alnajjar@uaeu.ac.ae"
+repository-code: "https://github.com/shaimaalzubi/Benchmark"
+license: "MIT"
+keywords:
+  - Arabic NLP
+  - emotion classification
+  - large language models
+  - operational reliability
+  - zero-shot learning
+  - few-shot learning
+  - self-consistency
+  - McNemar test
+abstract: >
+  Code and documentation for a deployment-oriented evaluation of large
+  language models for Arabic emotion classification. The repository covers
+  zero-shot and few-shot inference, three-vote stochastic aggregation,
+  run-to-run stability analysis, supervised Arabic encoder baselines, and
+  pairwise McNemar significance testing.

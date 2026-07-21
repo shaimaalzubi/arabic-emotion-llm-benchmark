@@ -1,0 +1,28 @@
+# Core data and evaluation
+numpy
+pandas
+scipy
+statsmodels
+scikit-learn
+matplotlib
+seaborn
+tqdm
+python-dotenv
+requests
+
+# Provider SDKs
+openai
+anthropic
+groq
+mistralai
+
+# Supervised Arabic baselines
+torch
+transformers
+datasets
+evaluate
+accelerate
+
+# Notebook support
+jupyter
+notebook
